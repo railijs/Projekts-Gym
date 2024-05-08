@@ -1,14 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Create Day Routine</title>
-    <link rel="stylesheet" href="style.css"/>
-</head>
-<body>
-    <h1>Create Day Routine</h1>
+<x-layout>
+
+    <h2>Create a Plan</h2>
     <a href="/">Back</a>
+    <div class="create">
     <form method="POST" action="/store">
         @csrf
         <label>
@@ -37,5 +31,5 @@
         </label>
         <button type="submit">Create</button>
     </form>
-</body>
-</html>
+    </div>
+    </x-layout>

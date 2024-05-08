@@ -8,7 +8,7 @@ class PlannerController extends Controller
 {
     public function index() {
         $planners = Planner::all();
-        return view("planners.index", ["planners" => $planners]);
+        return view("index", ["planners" => $planners]);
     }       
 
     public function show($id) {
