@@ -6,6 +6,6 @@
     <title>Document</title>
 </head>
 <body>
-    
+<?php return redirect("/index"); ?>
 </body>
 </html>
