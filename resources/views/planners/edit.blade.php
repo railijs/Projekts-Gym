@@ -31,28 +31,28 @@
                 <div class="mb-4">
                     <label class="block text-black">
                         Exercise:
-                        <input type="text" value="{{ isset($planner) ? $planner->exercise : '' }}" name="exercise" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+                        <input required="required" type="text" value="{{ isset($planner) ? $planner->exercise : '' }}" name="exercise" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
                     </label>
                 </div>
 
                 <div class="mb-4">
                     <label class="block text-black">
                         Reps:
-                        <input type="number" value="{{ isset($planner) ? $planner->reps : '' }}" name="reps" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+                        <input required="required"  type="number" value="{{ isset($planner) ? $planner->reps : '' }}" name="reps" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
                     </label>
                 </div>
 
                 <div class="mb-4">
                     <label class="block text-black">
                         Sets:
-                        <input type="number" value="{{ isset($planner) ? $planner->sets : '' }}" name="sets" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+                        <input required="required" type="number" value="{{ isset($planner) ? $planner->sets : '' }}" name="sets" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
                     </label>
                 </div>
 
                 <div class="mb-4">
                     <label class="block text-black">
                         Rest(min):
-                        <input type="number" value="{{ isset($planner) ? $planner->rest : '' }}" name="rest" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+                        <input required="required" type="number" value="{{ isset($planner) ? $planner->rest : '' }}" name="rest" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
                     </label>
                 </div>
                 

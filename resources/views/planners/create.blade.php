@@ -23,7 +23,7 @@
     <div class="mb-4">
         <label class="block text-black">
             Exercise:
-            <input name="exercise[]" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+            <input required="required" name="exercise[]" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
         </label>
     </div>
 </div>
@@ -33,21 +33,21 @@
 <div class="mb-4">
     <label class="block text-black">
         Reps:
-        <input name="reps" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+        <input required="required" name="reps" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
     </label>
 </div>
 
 <div class="mb-4">
     <label class="block text-black">
         Sets:
-        <input name="sets" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+        <input required="required" name="sets" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
     </label>
 </div>
 
 <div class="mb-4">
     <label class="block text-black">
         Rest(min):
-        <input name="rest" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+        <input required="required" name="rest" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
     </label>
 </div>            
             <button type="submit" class="w-full bg-gray-800 text-white py-2 px-4 rounded-md focus:outline-none focus:bg-gray-700 hover:bg-gray-700">Create</button>
